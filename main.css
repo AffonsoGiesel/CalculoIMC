@@ -1,0 +1,13 @@
+body {
+    background-image: url(running.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+label {
+    font-family: 'VT323';
+}
+
+a {
+    font-family: 'VT323';
+}

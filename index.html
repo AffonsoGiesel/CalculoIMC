@@ -1,0 +1,29 @@
+<head>
+    <meta charset="utf-8">
+    <title>Cálculo de IMC</title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Atomic+Age" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+</head>
+
+<body>
+    <form id="formulario">
+
+        <h1 style="font-family: 'Atomic Age'">Cálculo de IMC</h1>
+        <fieldset>
+
+            <label for="kilos">Quilos:</label>
+            <input name="kilos" type="text" />
+
+            <label for="altura">Altura:</label>
+            <input name="altura" type="text" />
+
+            <label for="imc">IMC:</label>
+            <input name="imc" type="text" disabled="disabled" />
+
+            <a href="#" onclick="calcularIMC()">Calcular</a>
+        </fieldset>
+    </form>
+    <textarea readonly id="mytextarea"placeholder="Resultado"></textarea>
+</body>
