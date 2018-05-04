@@ -6,8 +6,14 @@ body {
 
 label {
     font-family: 'VT323';
+      Color: White;
 }
 
 a {
     font-family: 'VT323';
+      Color: White;
+}
+
+h1{
+    color: White;
 }
